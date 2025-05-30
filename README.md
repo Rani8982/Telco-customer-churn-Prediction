@@ -1,11 +1,11 @@
-🎯 Project Objective
+🎯 Project Objective<br>
 The aim of this project is to build a predictive model that identifies customers at risk of churning. 
 
-📝 Background
+📝 Background<br>
 In the highly competitive telecommunications sector, retaining existing customers is more cost-effective than acquiring new ones. This project leverages machine learning techniques to analyze customer data and predict potential churners. The IBM Telco Customer Churn dataset serves as the foundation for this analysis.
 GitHub
 
-📂 Dataset Overview
+📂 Dataset Overview <br>
 The dataset comprises various customer attributes:
 
 Demographics: Gender, Senior Citizen status
@@ -21,7 +21,7 @@ No Churn: 73.46%
 Churn: 26.54%
 Class Weighting: Applied to penalize misclassification of minority class.
 
-🤖 Machine Learning Models
+🤖 Machine Learning Models<br>
 Four models were developed and evaluated:
 
 Logistic Regression
@@ -45,7 +45,7 @@ Each model was trained using both class weighting and SMOTE techniques to handle
 
 The LightGBM model with SMOTE outperformed others across multiple metrics.
 
-🔍 Feature Importance (LightGBM)
+🔍 Feature Importance (LightGBM)<br>
 Top 15 features influencing churn prediction:
 
 Monthly Charges
@@ -78,7 +78,7 @@ Partner Status
 
 Paperless Billing
 
-📈 Key Insights
+📈 Key Insights<br>
 Financial Factors: Monthly and total charges, along with tenure, are significant churn predictors.
 
 Payment Methods: Customers using electronic checks show higher churn rates.
