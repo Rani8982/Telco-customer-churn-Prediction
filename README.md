@@ -34,14 +34,14 @@ LightGBM
 
 Each model was trained using both class weighting and SMOTE techniques to handle class imbalance.
 
-📊 Model Performance Comparison
-Model	Technique	Accuracy	Precision	Recall	F1 Score	ROC AUC	Cross-Val ROC AUC
-Logistic Regression	Class Weight	0.7587	0.5282	0.8284	0.6451	0.8650	0.8426
-Logistic Regression	SMOTE	0.7892	0.6484	0.4450	0.5278	0.7927	0.9327
-Random Forest	Class Weight	0.7921	0.6460	0.4745	0.5471	0.8369	0.8266
-XGBoost	Class Weight	0.7991	0.6415	0.5469	0.5904	0.8375	0.8138
-LightGBM	Class Weight	0.7743	0.5516	0.7882	0.6490	0.8554	0.8308
-LightGBM	SMOTE	0.8105	0.6506	0.6139	0.6317	0.8548	0.9377
+| Model                | Technique     | Accuracy | Precision | Recall  | F1 Score | ROC AUC | Cross-Val ROC AUC |
+|----------------------|---------------|----------|-----------|---------|----------|---------|--------------------|
+| Logistic Regression  | Class Weight  | 0.7587   | 0.5282    | 0.8284  | 0.6451   | 0.8650  | 0.8426             |
+| Logistic Regression  | SMOTE         | 0.7892   | 0.6484    | 0.4450  | 0.5278   | 0.7927  | 0.9327             |
+| Random Forest        | Class Weight  | 0.7921   | 0.6460    | 0.4745  | 0.5471   | 0.8369  | 0.8266             |
+| XGBoost              | Class Weight  | 0.7991   | 0.6415    | 0.5469  | 0.5904   | 0.8375  | 0.8138             |
+| LightGBM             | Class Weight  | 0.7743   | 0.5516    | 0.7882  | 0.6490   | 0.8554  | 0.8308             |
+| LightGBM             | SMOTE         | 0.8105   | 0.6506    | 0.6139  | 0.6317   | 0.8548  | 0.9377             |
 
 The LightGBM model with SMOTE outperformed others across multiple metrics.
 
@@ -87,5 +87,5 @@ Service Engagement: Lack of services like Online Backup, Tech Support, and Onlin
 
 Contract Type: One-year contracts are associated with higher retention.
 
-<img src="path/to/image" alt="Alt text" width="400"/>
+<img src="churn.JPG" alt="Alt text" width="400"/>
 
