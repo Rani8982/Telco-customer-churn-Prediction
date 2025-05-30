@@ -86,3 +86,6 @@ Payment Methods: Customers using electronic checks show higher churn rates.
 Service Engagement: Lack of services like Online Backup, Tech Support, and Online Security correlates with increased churn.
 
 Contract Type: One-year contracts are associated with higher retention.
+
+<img src="path/to/image" alt="Alt text" width="400"/>
+
